@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo.com</title>
+</head>
+<style>
+    table,tr,td{
+        border-collapse: collapse;
+        border: 1px solid rgb(8, 8, 8);
+        width: 1100px;
+        height: 20px;
+
+    }
+    #b{
+        border-color: black;
+    }
+    #zone{
+        background-color: blue;
+    }
+    #great{
+        background-color: black;
+    }
+    #vado{
+        background-color: yellow;
+    }
+    #star{
+        background-color: green;
+    }
+    #danger{
+        background-color: red;
+    }
+    img{
+        width: 350px;
+        height:200px ;
+       padding-left: 40px;
+    }
+
+
+</style>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="6" rowspan="6" id="vado"><img src="./istockphoto-471090378-612x612.jpg" alt=""></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="6" rowspan="6" id="star"><img src="./bugatti .jpg" alt=""></td>
+                <!-- <td>6</td> -->
+                <!-- <td>7</td> -->
+                <!-- <td>8</td> -->
+                <!-- <td>9</td> -->
+                <!-- <td >10</td> -->
+                <!-- <td>11</td> -->
+                <!-- <td>12</td> -->
+                <!-- <td>13</td> -->
+                <!-- <td>14</td> -->
+                <!-- <td >15</td> -->
+            </tr>
+            <tr id="b">
+                <td></td>
+                <td id="star"></td>
+                <td id="star"></td>
+                <!-- <td>119</td> -->
+                <!-- <td>20</td> -->
+                <!-- <td>21</td> -->
+                <!-- <td>22</td> -->
+                <!-- <td>23</td> -->
+                <!-- <td>24</td> -->
+                <!-- <td>25</td> -->
+                <!-- <td>26</td> -->
+                <!-- <td>27</td> -->
+                <!-- <td>28</td> -->
+                <!-- <td>29</td> -->
+                <!-- <td>30</td> -->
+            </tr>
+            <tr id="c">
+                <td></td>
+                <td id="star"></td>
+                <td></td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td>6</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="star" ></td>
+                <td></td>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="star"></td>
+                <td></td>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="star"></td>
+                <td></td>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="vado"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="3" rowspan="3" id="great"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <!-- <td>54</td> -->
+                <!-- <td>55</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="vado"></td>
+                <td id="vado"></td>
+                <td id="vado"></td>
+                <td id="vado"></td>
+                <td id="vado"></td>
+                <td id="danger"></td>
+                <td id="danger"></td>
+                <td id="danger"></td>
+                <td id="danger"></td>
+                <td id="danger"></td>
+                <td></td>
+                <!-- <td>67</td> -->
+                <!-- <td>68</td> -->
+                <!-- <td>69</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="danger"></td>
+                <td></td>
+                <!-- <td>82</td> -->
+                <!-- <td>83</td> -->
+                <!-- <td>84</td> -->
+            </tr>
+            <tr>
+                <td rowspan="6" colspan="6" id="zone"><img src="./images.jpeg" alt=""></td>
+                <td></td>
+                <td id="zone"></td>
+                <td></td>
+                <td rowspan="6" colspan="6" id="danger"><img src="./ferarri.jpg" alt=""></td>
+                <!-- <td>90</td> -->
+                <!-- <td>91</td> -->
+                <!-- <td>92</td> -->
+                <!-- <td>93</td> -->
+                <!-- <td>94</td> -->
+                <!-- <td>95</td> -->
+                <!-- <td >96</td> -->
+                <!-- <td>97</td> -->
+                <!-- <td>98</td> -->
+                <!-- <td>99</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="zone"></td>
+                <td></td>
+                <!-- <td>a4</td> -->
+                <!-- <td>a5</td> -->
+                <!-- <td>a6</td> -->
+                <!-- <td>a7</td> -->
+                <!-- <td>a8</td> -->
+                <!-- <td>a9</td> -->
+                <!-- <td>a00</td> -->
+                <!-- <td>a11</td> -->
+                <!-- <td>a12</td> -->
+                <!-- <td>a13</td> -->
+                <!-- <td>a14</td> -->
+                <!-- <td>a15</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="zone"></td>
+                <td></td>
+                <!-- <td>b4</td> -->
+                <!-- <td>b5</td> -->
+                <!-- <td>b6</td> -->
+                <!-- <td>b6</td> -->
+                <!-- <td>b7</td> -->
+                <!-- <td>b8</td> -->
+                <!-- <td>b9</td> -->
+                <!-- <td>b00</td> -->
+                <!-- <td>bb11</td> -->
+                <!-- <td>b12</td> -->
+                <!-- <td>b13</td> -->
+                <!-- <td>b14</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td id="zone"></td>
+                <td></td>
+                <!-- <td>c4</td> -->
+                <!-- <td>c5</td> -->
+                <!-- <td>c6</td> -->
+                <!-- <td>c7</td> -->
+                <!-- <td>c8</td> -->
+                <!-- <td>c9</td> -->
+                <!-- <td>c10</td> -->
+                <!-- <td>c12</td> -->
+                <!-- <td>c13</td> -->
+                <!-- <td>c14</td> -->
+                <!-- <td>c11</td> -->
+                <!-- <td>c15</td> -->
+            </tr>
+            <tr>
+                <td id="zone"></td>
+                <td id="zone"></td>
+                <td></td>
+                <!-- <td>d4</td> -->
+                <!-- <td>d5</td> -->
+                <!-- <td>d6</td> -->
+                <!-- <td>d7</td> -->
+                <!-- <td>d8</td> -->
+                <!-- <td>d9</td> -->
+                <!-- <td>d00</td> -->
+                <!-- <td>d11</td> -->
+                <!-- <td>d12</td> -->
+                <!-- <td>d13</td> -->
+                <!-- <td>d14</td> -->
+                <!-- <td>d15</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <!-- <td>4</td> -->
+                <!-- <td>5</td> -->
+                <!-- <td>6</td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
